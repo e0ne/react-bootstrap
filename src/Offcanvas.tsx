@@ -7,9 +7,9 @@ import { useCallback, useMemo, useRef } from 'react';
 import BaseModal, {
   ModalProps as BaseModalProps,
   ModalHandle,
-} from 'react-overlays/Modal';
-import ModalManager from 'react-overlays/ModalManager';
-import useRootClose from 'react-overlays/useRootClose';
+} from '@restart/ui/Modal';
+import ModalManager from '@restart/ui/ModalManager';
+import useRootClose from '@restart/ui/useRootClose';
 import Fade from './Fade';
 import OffcanvasBody from './OffcanvasBody';
 import OffcanvasToggling from './OffcanvasToggling';

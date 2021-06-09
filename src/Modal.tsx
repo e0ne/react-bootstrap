@@ -12,7 +12,7 @@ import transitionEnd from 'dom-helpers/transitionEnd';
 import PropTypes from 'prop-types';
 import * as React from 'react';
 import { useCallback, useMemo, useRef, useState } from 'react';
-import BaseModal, { ModalProps as BaseModalProps } from 'react-overlays/Modal';
+import BaseModal, { ModalProps as BaseModalProps } from '@restart/ui/Modal';
 import BootstrapModalManager from './BootstrapModalManager';
 import Fade from './Fade';
 import ModalBody from './ModalBody';
